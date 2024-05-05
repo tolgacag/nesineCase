@@ -1,0 +1,28 @@
+.basketMain{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    min-width: 300px;
+    padding: 10px;
+    box-shadow: -1px -1px 15px #000000;
+    min-width: 450px;
+}
+
+.basketItem{
+    border-bottom: solid 1px #e2e2e2;
+    padding: 3px;
+}
+
+.betMultiplier{
+    margin: 5px 3px;
+}
+
+.betMultiplier input{
+   width: 100px;
+}
+
+.totalCount{
+    margin: 5px 3px;
+}

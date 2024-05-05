@@ -1,0 +1,40 @@
+.gameTable{
+    width: 100%;
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    position: relative;
+    text-align: center;
+}
+
+.gameTable td:first-child{
+   text-align: left !important;
+   padding-left: 5px;
+}
+
+.gameTable th{
+    
+    padding: 10px;
+ }
+
+.gameTable tr:first-child {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #e2e2e2;
+}
+
+.gameTable table, tr, th, td{
+    border: solid 1px #000000;
+}
+
+.gameTable tr:nth-child(2n+3) td {
+    padding: 5px;
+  }
+
+  .gameTable table tr td:first-child() {
+   background-color: aqua;
+  }
+
+.gameTable tr:hover {
+    background-color: #e2e2e2;
+}
